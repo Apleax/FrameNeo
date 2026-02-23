@@ -1,0 +1,56 @@
+# ===================== Java 后端相关 =====================
+# 编译后的class文件
+*.class
+# Java虚拟机崩溃日志
+hs_err_pid*
+# 各类包文件/压缩包
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ===================== 日志文件 (通用) =====================
+*.log
+logs/
+
+# ===================== 前端通用相关 =====================
+# 前端依赖包
+node_modules/
+# 构建产物
+dist/
+dist-ssr/
+# 测试覆盖率报告
+coverage/
+# Mac系统隐藏文件
+.DS_Store
+# 本地环境配置
+*.local
+# TypeScript构建缓存
+*.tsbuildinfo
+# ESLint缓存
+.eslintcache
+
+# ===================== 编辑器/IDE 配置 =====================
+# IntelliJ IDEA
+.idea/
+# VSCode (保留extensions.json，其余忽略)
+.vscode/*
+!.vscode/extensions.json
+# Vim缓存文件
+*.sw?
+
+# ===================== 测试工具相关 =====================
+# Cypress 测试录屏/截图
+/cypress/videos/
+/cypress/screenshots/
+# Vitest 截图
+__screenshots__/
+
+# ===================== 前端包管理日志 =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
